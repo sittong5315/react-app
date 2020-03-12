@@ -1,0 +1,215 @@
+.waterdetail {
+    background: #f5f5f5;
+}
+
+.waterdetail header .icon-houtuishangyige {
+    font-size  : 0.34rem;
+    float      : left;
+    margin-left: 0.15rem;
+    position   : absolute;
+    left       : 0.15rem;
+}
+
+.waterdetail header .user {
+    font-size: 0.34rem;
+}
+
+.waterdetail header .right {
+    float       : right;
+    margin-right: 0.15rem;
+    position    : absolute;
+    right       : 0.15rem;
+    top         : 0;
+}
+
+.waterdetail>.title {
+    width     : 97%;
+    height    : 2rem;
+    margin    : 0.12rem auto;
+    background: white;
+}
+
+.waterdetail .title div img {
+    width : 2.2rem;
+    height: 1.78rem;
+    margin: 0.1rem
+}
+
+.waterdetail .title .left {
+    float: left;
+}
+
+.waterdetail .title .right {
+    width   : 60%;
+    overflow: hidden;
+    padding : 0.1rem 0;
+    float   : left;
+}
+
+.waterdetail .title .right .title-title {
+    margin-top: 0.1rem;
+    font-size : 0.32rem;
+}
+
+.waterdetail .title .right .score {
+    margin-left: 0.15rem;
+    margin-top : 0.1rem;
+}
+
+.waterdetail .title .right .score .icon-xingxing{
+    color: #ccc;
+}
+.waterdetail .title .right .count {
+    margin-left: 0.2rem;
+    font-size  : 0.22rem;
+}
+
+.waterdetail .title .right .third {
+    margin-top: 0.2rem;
+}
+
+.waterdetail .title .right .price {
+    margin-left: 0.15rem;
+    font-size  : 0.34rem;
+    color      : #fa8438;
+}
+
+.waterdetail .title .right .title-bottom {
+    padding-top: 0.1rem;
+    text-align : right;
+    margin-left: 0.3rem;
+    font-size  : 0.22rem;
+}
+
+.waterdetail .title .right .title-bottom .icon-dianzan {
+    font-size: 0.22rem;
+    margin-right: 0.05rem;
+}
+
+.waterdetail .title .right .title-bottom .readnum {
+    margin-left: 0.2rem;
+}
+
+.waterdetail .address {
+    width     : 97%;
+    height    : 1.1rem;
+    margin    : 0.12rem auto;
+    background: white;
+}
+
+.waterdetail .address .left {
+    margin      : 0.1rem;
+    height      : 0.9rem;
+    width       : 83%;
+    float       : left;
+    border-right: 0.02rem solid #ccc;
+}
+
+.waterdetail .address .left .len {
+    margin-bottom: 0.1rem;
+}
+
+.waterdetail .address .right {
+    position: relative;
+    float   : left;
+}
+
+.waterdetail .address .left .add {
+    font-size: 0.3rem;
+    margin-left: 0.1rem;
+}
+
+.waterdetail .address .right .icon-dianhua {
+    position : absolute;
+    font-size: 0.45rem;
+    left     : 0.2rem;
+    top      : 0.26rem;
+    color    : #f9822c;
+}
+
+.waterdetail .msg {
+    width     : 97%;
+    height    : 2.6rem;
+    margin    : 0.12rem auto;
+    background: white;
+}
+
+.waterdetail .msg .msg-title {
+    border-bottom: 0.01rem solid #ccc;
+    color        : #333333;
+    padding-left : 0.1rem;
+    height       : 0.6rem;
+    line-height  : 0.6rem;
+    font-size    : 0.28rem;
+}
+
+.waterdetail .msg .content {
+    padding    : 0.3rem;
+    line-height: 0.4rem;
+}
+
+.waterdetail .comment {
+    width     : 97%;
+    margin    : 0.12rem auto;
+    background: white;
+}
+
+.waterdetail .comment .title {
+    border-bottom: 0.01rem solid #ccc;
+    color        : #333333;
+    padding-left : 0.1rem;
+    height       : 0.6rem;
+    line-height  : 0.6rem;
+    font-size    : 0.28rem;
+}
+
+.waterdetail .comment .title .icon-combinedshapecopy2 {
+    color      : #d1d1d1;
+    margin-left: 4rem
+}
+
+.waterdetail .comment .title .write {
+    color    : #d1d1d1;
+    font-size: 0.24rem;
+}
+
+.waterdetail .comment .content {
+    height          : 1.4rem;
+    border-bottom: 0.01rem solid #ccc;
+    display: flex;
+}
+
+.waterdetail .comment .content .user {
+    width        : 1rem;
+    height       : 1rem;
+    border-radius: 50%;
+    overflow     : hidden;
+    margin       : 0.2rem;
+    float        : left;
+}
+.waterdetail .comment .content  .right{
+    flex: 1;
+}
+.waterdetail .comment .content .user img {
+    width : 100%;
+    height: 100%;
+}
+
+.waterdetail .comment .content .username {
+    width: 5.3rem;
+    position: relative;
+    margin-top: 0.3rem;
+    font-size: 0.3rem;
+    font-weight: bold;
+}
+.waterdetail .comment .content .username .time{
+    position: absolute;
+    right: 0.1rem;
+    top: 0rem;
+    font-size: 0.24rem;
+    font-weight: normal;
+    color:#d1d1d1
+}
+.waterdetail .comment .content .com {
+    margin-top: 0.2rem;
+}

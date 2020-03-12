@@ -1,0 +1,193 @@
+.jj {
+    background: white;
+}
+
+.jj header .icon-houtuishangyige {
+    font-size  : 0.34rem;
+    float      : left;
+    margin-left: 0.15rem;
+    position   : absolute;
+    left       : 0.15rem;
+}
+
+.jj header .icon-dingwei {
+    font-size: 0.34rem;
+}
+
+.jj header .right {
+    float       : right;
+    margin-right: 0.15rem;
+    position    : absolute;
+    right       : 0.15rem;
+    top         : 0;
+}
+
+.search {
+    position  : relative;
+    height    : 0.85rem;
+    background: white;
+    margin-top: 0.15rem;
+}
+
+.search .icon-sousuo {
+    width   : 0.25rem;
+    height  : 0.25rem;
+    position: absolute;
+    left    : 0.32rem;
+    top     : 0.23rem;
+}
+
+.search .release {
+    width           : 1.42rem;
+    height          : 0.53rem;
+    background-color: #007af4;
+    border-radius   : 0.05rem;
+    border          : none;
+    font-size       : 0.24rem;
+    line-height     : 0.53rem;
+    letter-spacing  : 0.02rem;
+    color           : #ffffff;
+    margin-left     : 0.2rem;
+}
+
+.jj .center {
+    width        : 100%;
+    height       : 1.12rem;
+    border-bottom: 0.01rem solid #ccc;
+}
+
+.jj .center .left,
+.jj .center .right {
+    width: 49%;
+}
+
+.jj .center .left {
+    height      : 70%;
+    border-right: 0.01rem solid #ccc;
+    margin-top  : 0.2rem;
+    float       : left;
+}
+
+.jj .center .right {
+    height    : 70%;
+    float     : left;
+    margin-top: 0.2rem;
+}
+
+.jj .center .icon-iconset0392,
+.jj .center .icon-qa {
+    font-size  : 0.7rem;
+    color      : blue;
+    margin-left: 0.2rem;
+    float      : left;
+}
+
+.jj .center h3 {
+    float       : left;
+    padding-left: 0.2rem;
+}
+
+.jj .center p {
+    float       : left;
+    margin-top  : 0.1rem;
+    padding-left: 0.2rem;
+}
+
+.jj .center .icon-qa {
+    color      : orange;
+    margin-left: 0.4rem;
+}
+
+.jj .type {
+    height         : 1.81rem;
+    width          : 90%;
+    margin         : 0 auto;
+    display        : flex;
+    justify-content: space-between;
+}
+
+.jj .type div span {
+    position  : absolute;
+    left      : 0.18rem;
+    top       : 0.12rem;
+    font-size : 0.66rem;
+    color     : white;
+    text-align: center;
+
+}
+
+.jj .type div {
+    position     : relative;
+    width        : 1.04rem;
+    height       : 1.04rem;
+    background   : #0ad927;
+    border-radius: 50%;
+    margin       : 0.2rem 0.2rem;
+}
+
+.jj .type div:nth-child(2) {
+    background: #f8991b;
+}
+
+.jj .type div:nth-child(3) {
+    background: #128deb;
+}
+
+.jj .type div:nth-child(4) {
+    background: #f06687;
+}
+
+.jj .type div .title {
+    font-size: 0.24rem;
+    color    : #333333;
+    left     : 0.25rem;
+    top      : 1.2rem;
+}
+
+.jj .top {
+    text-align: center;
+    font-size : 0.28rem;
+    color     : #333333;
+    margin-top: 0.15rem;
+}
+
+.jj .bottom {
+    width          : 85%;
+    margin         : 0.3rem auto;
+    display        : flex;
+    justify-content: space-between;
+    flex-wrap      : wrap;
+}
+
+.jj .bottom div {
+    position: relative;
+    width   : 2.89rem;
+    height  : 2.2rem;
+    border  : 0.01rem solid #ccc;
+    margin  : 0.15rem 0;
+}
+
+.jj .bottom div .img1 {
+    width : 100%;
+    height: 80%;
+}
+
+.jj .bottom div .img2 {
+    width : 100%;
+    height: 100%;
+}
+
+.jj .bottom div .teacherimg {
+    position     : absolute;
+    right        : 0.1rem;
+    bottom       : 0rem;
+    border-radius: 50%;
+    width        : 0.8rem;
+    height       : 0.8rem;
+    overflow     : hidden;
+}
+
+.jj .bottom div p {
+    padding-left: 0.1rem;
+    font-size   : 0.28rem;
+}

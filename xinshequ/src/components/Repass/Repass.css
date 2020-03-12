@@ -1,0 +1,119 @@
+.repass header .icon-caidan {
+    font-size  : 0.34rem;
+    float      : left;
+    margin-left: 0.15rem;
+    position   : absolute;
+    left       : 0.15rem;
+}
+
+.repass header .icon-houtuishangyige {
+    font-size  : 0.34rem;
+    float      : left;
+    margin-left: 0.15rem;
+    position   : absolute;
+    left       : 0.15rem;
+}
+
+.repass header .icon-user {
+    font-size: 0.34rem;
+}
+
+.repass header .right {
+    float       : right;
+    margin-right: 0.15rem;
+    position    : absolute;
+    right       : 0.15rem;
+    top         : 0;
+}
+.repass .repasss div {
+    position: relative;
+}
+
+.repass input {
+    box-sizing  : border-box;
+    width       : 100%;
+    height      : 1rem;
+    border      : none;
+    padding-left: 0.65rem;
+    outline     : none;
+    font-size   : 0.28rem;
+}
+
+.repass .repasss {
+    width        : 80%;
+    margin       : 0 auto;
+    margin-top   : 0.8rem;
+    text-align   : center;
+    border       : 1px solid #dfdee2;
+    border-radius: 0.1rem;
+    margin-bottom: 0.6rem;
+}
+
+.repass .re {
+    border-bottom: 1px solid #dfdee2;
+    border-radius: 0;
+}
+
+.repass .tel {
+    border-bottom: 1px solid #dfdee2;
+    border-radius: 0;
+}
+
+.repass .repasss .icon-shouji {
+    position : absolute;
+    font-size: 0.38rem;
+    left     : 0.15rem;
+    top      : 0.28rem;
+}
+.repass .repasss .icon-user {
+    position : absolute;
+    font-size: 0.38rem;
+    left     : 0.15rem;
+    top      : 0.28rem;
+}
+
+.repass .repasss .icon-suo {
+    position : absolute;
+    font-size: 0.38rem;
+    left     : 0.15rem;
+    top      : 0.28rem;
+}
+
+.repass .repasss .icon-yanzhengma2 {
+    position : absolute;
+    font-size: 0.38rem;
+    left     : 0.15rem;
+    top      : 0.28rem;
+}
+
+.repass .repasss button {
+    position     : absolute;
+    right        : 0.1rem;
+    top          : 0.2rem;
+    text-align   : center;
+    width        : 1.5rem;
+    height       : 0.6rem;
+    line-height  : 0.6rem;
+    background   : #007af5;
+    border-radius: 0.1rem;
+    font-size    : 0.28rem;
+    color        : #ffffff;
+    border       : none;
+    outline      : none;
+}
+
+.repass button {
+    width        : 80%;
+    height       : 0.80rem;
+    background   : #007af5;
+    border-radius: 0.1rem;
+    color        : #ffffff;
+    font-size    : 0.34rem;
+    border       : none;
+    outline      : none;
+}
+
+.repass .btn {
+    margin    : 0 auto;
+    text-align: center;
+}

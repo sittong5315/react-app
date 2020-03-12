@@ -1,0 +1,93 @@
+.repair header .icon-houtuishangyige {
+    font-size  : 0.34rem;
+    float      : left;
+    margin-left: 0.15rem;
+    position   : absolute;
+    left       : 0.15rem;
+}
+
+.repair header .icon-dingwei {
+    font-size: 0.34rem;
+}
+
+.repair header .icon-user {
+    font-size: 0.34rem;
+}
+
+.repair header .right {
+    float       : right;
+    margin-right: 0.15rem;
+    position    : absolute;
+    right       : 0.15rem;
+    top         : 0;
+}
+
+.repair .type {
+    width         : 100%;
+    height        : 0.7rem;
+    background    : #f5f5f5;
+    display       : flex;
+    flex-direction: row;
+    border-bottom: 0.01rem solid #ccc;
+}
+
+.repair .type>div {
+    flex        : 1;
+    text-align  : center;
+    line-height : 0.7rem;
+    border-right: 0.01rem solid #ccc;
+    position    : relative;
+}
+
+.repair .type div::before {
+    content         : '';
+    position        : absolute;
+    top             : 0.3rem;
+    right           : 0.2rem;
+    border          : 0.1rem solid transparent;
+    border-top-color: #acaba6;
+}
+.repair .content .item{
+    display: felx;
+    width: 95%;
+    height: 1.5rem;
+    margin: 0 auto;
+    border-bottom: 0.01rem solid #ccc;
+}
+.repair .content .right{
+    float: right;
+    width: 1rem;
+    margin: 0.1rem;
+}
+.repair .content .right .icon-dianhua{
+    font-size: 0.65rem;
+    color: #ff6a06;
+    margin-top: 0.1rem;
+    margin-left: 0.17rem;
+}
+.repair .content .right p{
+    margin-top: 0.1rem;
+    color: #929292;
+    text-align: center;
+}
+.repair .content .item .left{
+    float: left;
+}
+.repair .content .item .left .name{
+    margin: 0.1rem;
+}
+.repair .content .item .left .name-name{
+    margin-right: 0.2rem;
+    font-size: 0.3rem;
+    color: #333333;
+}
+.repair .content .item .left .item-type{
+    margin: 0.2rem 0.1rem 0.1rem;
+    font-size: 0.24rem;
+}
+.repair .content .item .left .address{
+    margin-left: 0.1rem;
+}
+.repair .content .item .left .add{
+    font-size: 0.24rem;
+}

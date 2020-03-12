@@ -1,0 +1,193 @@
+.jzdetail header .icon-houtuishangyige {
+    font-size  : 0.34rem;
+    float      : left;
+    margin-left: 0.15rem;
+    position   : absolute;
+    left       : 0.15rem;
+}
+
+.jzdetail header .icon-user {
+    font-size: 0.34rem;
+}
+
+.jzdetail header .right {
+    float       : right;
+    margin-right: 0.15rem;
+    position    : absolute;
+    right       : 0.15rem;
+    top         : 0;
+}
+
+.jzdetail .item {
+    width     : 100%;
+    height    : 2.4rem;
+    background: white;
+    padding   : 0.2rem;
+    box-sizing: border-box;
+    position  : relative;
+}
+
+.jzdetail .item .left img {
+    width : 100%;
+    height: 100%;
+}
+
+.jzdetail .item .left {
+    width       : 1.22rem;
+    height      : 1.3rem;
+    float       : left;
+    margin-right: 0.2rem;
+}
+
+.jzdetail .item .center {
+    height: 2.4rem;
+}
+
+.jzdetail .item .center .t {
+    color        : #333333;
+    margin-bottom: 0.1rem;
+}
+
+.jzdetail .item .center .t div {
+    display      : inline-block;
+    margin-left  : 0.1rem;
+    margin-top   : -0.1rem;
+    width        : 0.6rem;
+    border-radius: 0.3rem;
+    background   : goldenrod;
+    text-align   : center;
+    border       : 0.01rem solid goldenrod;
+}
+
+.jzdetail .item .center .t div span:nth-child(1) {
+    color    : white;
+    font-size: 0.34rem;
+}
+
+.jzdetail .item .center .t div span:nth-child(2) {
+    color: white;
+}
+
+.jzdetail .item .center .count {
+    float         : left;
+    font-size     : 0.24rem;
+    color         : #ccc;
+    /* margin-left: 1.35rem; */
+    margin-top    : 0.1rem;
+}
+
+.jzdetail .item .center .count .icon-xingxing {
+    font-size: 0.28rem;
+}
+
+.jzdetail .item .center .count .icon-aixin {
+    font-size  : 0.28rem;
+    margin-left: 0.1rem;
+}
+
+.jzdetail .item .center .des {
+    line-height: 0.4rem;
+    margin-top : 0.1rem;
+}
+
+.jzdetail .item .center .msg span {
+    font-size: 0.24rem;
+}
+
+.jzdetail .item .center .len {
+    font-size: 0.24rem;
+    color    : #ccc;
+    position : absolute;
+    right    : 0.2rem;
+    top      : 1.87rem;
+}
+
+.jzdetail .item .center .time {
+    position: absolute;
+    top     : 0.2rem;
+    right   : 0.2rem;
+}
+
+.jzdetail .item .center .time .price {
+    color    : #ff8e47;
+    font-size: 0.34rem;
+}
+.jzdetail .msg{
+    background: white;
+    margin:0.1rem 0;
+}
+.jzdetail .msg .t{
+    padding-left: 0.2rem;
+    border-bottom: 0.01rem solid #ccc;
+    height: 0.7rem;
+    font-size: 0.3rem;
+    line-height: 0.7rem;
+}
+.jzdetail .msg .m{
+    padding:0.2rem;
+    line-height: 0.5rem;
+}
+.jzdetail .comment {
+    width     : 97%;
+    margin    : 0.12rem auto;
+    background: white;
+}
+
+.jzdetail .comment .title {
+    border-bottom: 0.01rem solid #ccc;
+    color        : #333333;
+    padding-left : 0.1rem;
+    height       : 0.6rem;
+    line-height  : 0.6rem;
+    font-size    : 0.28rem;
+}
+
+.jzdetail .comment .title .icon-combinedshapecopy2 {
+    color      : #d1d1d1;
+    margin-left: 4.5rem
+}
+
+.jzdetail .comment .title .write {
+    color    : #d1d1d1;
+    font-size: 0.24rem;
+}
+
+.jzdetail .comment .content {
+    height          : 1.4rem;
+    border-bottom: 0.01rem solid #ccc;
+}
+
+.jzdetail .comment .content .user {
+    width        : 1rem;
+    height       : 1rem;
+    border-radius: 50%;
+    overflow     : hidden;
+    margin       : 0.2rem;
+    float        : left;
+}
+
+.jzdetail .comment .content .user img {
+    width : 100%;
+    height: 100%;
+}
+
+.jzdetail .comment .content .username {
+    width: 5.3rem;
+    position: relative;
+    margin-top: 0.3rem;
+    float: left;
+    font-size: 0.3rem;
+    font-weight: bold;
+}
+.jzdetail .comment .content .username .time{
+    position: absolute;
+    right: 0.1rem;
+    top: 0rem;
+    font-size: 0.24rem;
+    font-weight: normal;
+    color:#d1d1d1
+}
+.jzdetail .comment .content .com {
+    margin-top: 0.2rem;
+    float: left;
+}

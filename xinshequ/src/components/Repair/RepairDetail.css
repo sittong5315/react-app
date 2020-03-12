@@ -1,0 +1,216 @@
+.repairdetail {
+    background: #f5f5f5;
+}
+
+.repairdetail header .icon-houtuishangyige {
+    font-size  : 0.34rem;
+    float      : left;
+    margin-left: 0.15rem;
+    position   : absolute;
+    left       : 0.15rem;
+}
+
+.repairdetail header .user {
+    font-size: 0.34rem;
+}
+
+.repairdetail header .right {
+    float       : right;
+    margin-right: 0.15rem;
+    position    : absolute;
+    right       : 0.15rem;
+    top         : 0;
+}
+
+.repairdetail .t {
+    width        : 97%;
+    margin       : 0 auto;
+    display      : flex;
+    height       : 0.9rem;
+    line-height  : 0.9rem;
+    background   : white;
+    border-bottom: 0.01rem solid #ccc;
+}
+
+.repairdetail .t .title-title {
+    display    : inline-block;
+    flex       : 1;
+    margin-left: 0.2rem;
+}
+
+.repairdetail .msg {
+    width        : 97%;
+    overflow     : hidden;
+    height       : 2.7rem;
+    background   : white;
+    margin       : 0 auto;
+    box-sizing   : border-box;
+    padding      : 0.2rem 0.5rem;
+    position     : relative;
+    margin-bottom: 0.2rem;
+}
+
+.repairdetail .msg div {
+    margin: 0.09rem;
+}
+
+.repairdetail .msg .address .icon-dingwei1 {
+    position: absolute;
+    top     : 0.25rem;
+    left    : 0.2rem;
+}
+
+.repairdetail .msg .btn {
+    width      : 3.1rem;
+    height     : 0.6rem;
+    line-height: 0.6rem;
+    margin-top : 0.3rem;
+}
+
+.repairdetail .msg .btn .btn1 {
+    display      : inline-block;
+    width        : 42%;
+    height       : 100%;
+    text-align   : center;
+    background   : #87d857;
+    border-radius: 0.1rem;
+    color        : white;
+}
+
+.repairdetail .msg .btn .btn2 {
+    display      : inline-block;
+    width        : 45%;
+    height       : 100%;
+    text-align   : center;
+    background   : #75bbff;
+    margin-left  : 0.2rem;
+    padding      : 0 0.1rem;
+    border-radius: 0.1rem;
+    color        : white;
+}
+
+.repairdetail .msg .count {
+    position: absolute;
+    right   : 0.2rem;
+    bottom  : 0rem;
+    color   : #ccc;
+}
+
+.repairdetail .msg .count .icon-xingxing {
+    font-size: 0.31rem;
+}
+
+.repairdetail .msg .count .like {
+    padding  : 0 0.05rem;
+    font-size: 0.24rem;
+}
+
+.repairdetail .msg .count .icon-aixin {
+    font-size: 0.28rem;
+    margin   : 0 0.05rem;
+}
+
+.repairdetail .msg .count .good {
+    font-size: 0.24rem;
+}
+
+.repairdetail .des {
+    width        : 97%;
+    overflow     : hidden;
+    /* height    : 2.5rem; */
+    background   : white;
+    margin       : 0 auto;
+    position     : relative;
+}
+
+.repairdetail .des .d-title {
+    width        : 100%;
+    height       : 0.6rem;
+    line-height  : 0.6rem;
+    padding-left : 0.2rem;
+    border-bottom: 0.01rem solid #ccc;
+}
+
+.repairdetail .des .content {
+    padding    : 0.3rem 0.4rem;
+    line-height: 0.4rem;
+}
+.repairdetail .comment{
+    width        : 97%;
+    overflow     : hidden;
+    /* height    : 2.5rem; */
+    background   : white;
+    margin       : 0 auto;
+    position     : relative;
+    margin-top: 0.2rem;
+}
+.repairdetail .comment .c-title {
+    width        : 100%;
+    height       : 0.6rem;
+    line-height  : 0.6rem;
+    padding-left : 0.2rem;
+    border-bottom: 0.01rem solid rgb(98, 98, 98);
+}
+.repairdetail .comment {
+    width     : 97%;
+    margin    : 0.12rem auto;
+    background: white;
+}
+
+.repairdetail .comment .title {
+    border-bottom: 0.01rem solid #ccc;
+    color        : #333333;
+    padding-left : 0.1rem;
+    height       : 0.6rem;
+    line-height  : 0.6rem;
+    font-size    : 0.28rem;
+}
+
+.repairdetail .comment .c-title .icon-combinedshapecopy2 {
+    color      : #d1d1d1;
+    margin-left: 4rem
+}
+
+.repairdetail .comment .c-title .write {
+    color    : #d1d1d1;
+    font-size: 0.24rem;
+}
+
+.repairdetail .comment .content {
+    height          : 1.4rem;
+    border-bottom: 0.01rem solid #ccc;
+    position: relative;
+}
+
+.repairdetail .comment .content .user {
+    width        : 1rem;
+    height       : 1rem;
+    border-radius: 50%;
+    overflow     : hidden;
+    margin       : 0.2rem;
+    float        : left;
+}
+
+.repairdetail .comment .content .user img {
+    width : 100%;
+    height: 100%;
+}
+
+.repairdetail .comment .content .username {
+    width: 5.3rem;
+    margin-top: 0.3rem;
+    margin-right: 0;
+    font-size: 0.3rem;
+    font-weight: bold;
+}
+.repairdetail .comment .content .username .time{
+    position: absolute;
+    right: 0.1rem;
+    top: 0rem;
+    font-size: 0.24rem;
+    font-weight: normal;
+    color:#d1d1d1
+}
+.repairdetail .comment .content .com {
+    margin-top: 0.2rem;
+}

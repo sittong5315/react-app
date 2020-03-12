@@ -1,0 +1,128 @@
+.jzlist header .icon-houtuishangyige {
+    font-size  : 0.34rem;
+    float      : left;
+    margin-left: 0.15rem;
+    position   : absolute;
+    left       : 0.15rem;
+}
+
+.jzlist header .icon-dingwei {
+    font-size: 0.34rem;
+}
+
+.jzlist header .icon-user {
+    font-size: 0.34rem;
+}
+
+.jzlist header .right {
+    float       : right;
+    margin-right: 0.15rem;
+    position    : absolute;
+    right       : 0.15rem;
+    top         : 0;
+}
+
+.jzlist .type {
+    width         : 100%;
+    height        : 0.7rem;
+    background    : #f5f5f5;
+    display       : flex;
+    flex-direction: row;
+    border-bottom: 0.01rem solid #ccc;
+}
+
+.jzlist .type>div {
+    flex        : 1;
+    text-align  : center;
+    line-height : 0.7rem;
+    border-right: 0.01rem solid #ccc;
+    position    : relative;
+}
+
+.jzlist .type div::before {
+    content         : '';
+    position        : absolute;
+    top             : 0.3rem;
+    right           : 0.2rem;
+    border          : 0.1rem solid transparent;
+    border-top-color: #acaba6;
+}
+.jzlist .item{
+    width: 100%;
+    height: 2.4rem;
+    background: white;
+    padding:0.2rem;
+    box-sizing: border-box;
+    position: relative;
+}
+.jzlist .item .left img{
+    width: 100%;
+    height: 100%;
+}
+.jzlist .item .left{
+    width: 1.22rem;
+    height: 1.3rem;
+    float: left;
+    margin-right: 0.2rem;
+}
+.jzlist .item .center{
+    height: 2.4rem;
+}
+.jzlist .item .center .t{
+    color: #333333;
+    margin-bottom: 0.1rem;
+}
+.jzlist .item .center .t div{
+    display: inline-block;
+    margin-left: 0.1rem;
+    margin-top: -0.1rem;
+    width: 0.6rem;
+    border-radius: 0.3rem;
+    background: goldenrod;
+    text-align: center;
+    border: 0.01rem solid goldenrod;
+}
+.jzlist .item .center .t div span:nth-child(1){
+    color: white;
+    font-size: 0.34rem;
+}
+.jzlist .item .center .t div span:nth-child(2){
+    color: white;
+}
+.jzlist .item .center .count{
+    float: left;
+    font-size: 0.24rem;
+    color: #ccc;
+    /* margin-left: 1.35rem; */
+    margin-top: 0.1rem;
+}
+.jzlist .item .center .count .icon-xingxing{
+    font-size: 0.28rem;
+}
+.jzlist .item .center .count .icon-aixin{
+    font-size: 0.28rem;
+    margin-left: 0.1rem;
+}
+.jzlist .item .center .des{
+    line-height: 0.4rem;
+    margin-top: 0.1rem;
+}
+.jzlist .item .center .msg span{
+    font-size: 0.24rem;
+}
+.jzlist .item .center .len{
+    font-size: 0.24rem;
+    color: #ccc;
+    position: absolute;
+    right: 0.2rem;
+    top: 1.87rem;
+}
+.jzlist .item .center .time{
+    position: absolute;
+    top: 0.2rem;
+    right: 0.2rem;
+}
+.jzlist .item .center .time .price{
+    color: #ff8e47;
+    font-size: 0.34rem;
+}

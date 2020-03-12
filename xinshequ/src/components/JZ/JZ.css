@@ -1,0 +1,95 @@
+.jz header .icon-caidan {
+    font-size  : 0.34rem;
+    float      : left;
+    margin-left: 0.15rem;
+    position   : absolute;
+    left       : 0.15rem;
+}
+
+.jz header .icon-houtuishangyige {
+    font-size  : 0.34rem;
+    float      : left;
+    margin-left: 0.15rem;
+    position   : absolute;
+    left       : 0.15rem;
+}
+
+.jz header .icon-user {
+    font-size: 0.34rem;
+}
+
+.jz header .right {
+    float       : right;
+    margin-right: 0.15rem;
+    position    : absolute;
+    right       : 0.15rem;
+    top         : 0;
+}
+
+.jz .type {
+    width          : 100%;
+    display        : flex;
+    flex-direction : row;
+    flex-wrap      : wrap;
+    justify-content: space-between;
+    padding:0.3rem;
+    box-sizing: border-box;
+    /* margin-top: 0.1rem; */
+}
+.jz .type div .name{
+    width: 1.4rem;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    left: 0;
+    top: 1.45rem;
+    font-size: 0.28rem;
+    color: #333;
+}
+
+.jz .type div {
+    position: relative;
+    width : 1.4rem;
+    height: 1.4rem;
+    border: 0.01rem solid #ccc;
+    margin-bottom: 0.5rem;
+    border-radius: 0.5rem;
+}
+.jz .type div span{
+    font-size: 0.9rem;
+    position: absolute;
+    left:0.28rem;
+    top: 0.18rem;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    color: white;
+}
+.jz .type div:nth-child(1){
+    background: #30adef;
+}
+.jz .type div:nth-child(2){
+    background: #696fdf;
+}
+.jz .type div:nth-child(3){
+    background: #54c537;
+}
+.jz .type div:nth-child(4){
+    background: #fdc23f;
+}
+.jz .type div:nth-child(5){
+    background: #5b79b8;
+}
+.jz .type div:nth-child(6){
+    background: #fea401;
+}
+.jz .type div:nth-child(7){
+    background: #9c84f0;
+}
+.jz .type div:nth-child(8){
+    background: #f06687;
+}
+.jz .btm img{
+    width: 100%;
+    height: 2.4rem;
+}

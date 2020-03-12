@@ -1,0 +1,138 @@
+.wrapper {
+    background: #f0eff5;
+    height    : 100vh;
+}
+
+.wrapper .icon-houtuishangyige {
+    font-size  : 0.34rem;
+    float      : left;
+    margin-left: 0.15rem;
+    position   : absolute;
+    left       : 0.15rem;
+}
+
+.wrapper .login div {
+    position: relative;
+}
+
+.wrapper input {
+    box-sizing  : border-box;
+    width       : 100%;
+    height      : 1rem;
+    border      : none;
+    padding-left: 0.65rem;
+    outline     : none;
+    font-size   : 0.28rem;
+}
+
+.wrapper .icon-suo {
+    position : absolute;
+    font-size: 0.38rem;
+    left     : 0.15rem;
+    top      : 0.28rem;
+}
+
+.wrapper .icon-user {
+    position : absolute;
+    font-size: 0.38rem;
+    left     : 0.15rem;
+    top      : 0.28rem;
+}
+
+.wrapper .name {
+    border-radius: 0.1rem 0.1rem 0 0;
+    border-bottom: 1px solid #dfdee2;
+}
+
+.wrapper .pass {
+    border-radius: 0 0 0.1rem 0.1rem;
+}
+
+.wrapper .login {
+    width        : 80%;
+    margin       : 0 auto;
+    margin-top   : 0.8rem;
+    text-align   : center;
+    border       : 1px solid #dfdee2;
+    border-radius: 0.1rem;
+    margin-bottom: 0.6rem;
+}
+
+.wrapper button {
+    width        : 80%;
+    height       : 0.80rem;
+    background   : #007af5;
+    border-radius: 0.1rem;
+    color        : #ffffff;
+    font-size    : 0.34rem;
+    border       : none;
+    outline      : none;
+}
+
+.wrapper .btn {
+    margin    : 0 auto;
+    text-align: center;
+}
+
+.wrapper .forgetPass {
+    display   : block;
+    margin    : 0.2rem 0.8rem;
+    color     : #b9b8bc;
+    text-align: right;
+}
+
+.wrapper .register {
+    display   : block;
+    text-align: center;
+    margin-top: 0.8rem;
+    font-size : 0.28rem;
+}
+
+.wrapper .or {
+    width      : 80%;
+    height     : 0.28rem;
+    margin     : 0.3rem auto;
+    text-align : center;
+    font-size  : 0.28rem;
+    line-height: 0.28rem;
+    color      : #979797;
+}
+
+.wrapper .or .left {
+    width        : 2rem;
+    float        : left;
+    height       : 0.14rem;
+    border-bottom: 1px solid #dadadd;
+}
+
+.wrapper .or .right {
+    width        : 2rem;
+    float        : right;
+    height       : 0.14rem;
+    border-bottom: 1px solid #dadadd;
+}
+
+.wrapper p {
+    text-align: center;
+    color     : #979797;
+    margin-top: 0.1rem;
+}
+.wrapper .other-login{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top:1rem;
+}
+.wrapper .other-login .icon-qq{
+    color: #369bce;
+    font-size: 0.6rem;
+}
+.wrapper .other-login .icon-weixin{
+    color: #15c434;
+    font-size: 0.6rem;
+}
+.wrapper .other-login .icon-weibo{
+    color: #e6172d;
+    font-size: 0.6rem;
+}
